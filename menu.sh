@@ -19,10 +19,10 @@ echo -e ""
 read -p " Select menu : " opt
 echo -e ""
 case $opt in
-1) clear ; menu-vmess ;;
-2) clear ; menu-vless ;;
-3) clear ; menu-trojan;;
-4) clear ; menu-trojanws ;;
+1) clear ; add-ws ;;
+2) clear ; add-vless ;;
+3) clear ; add-tr ;;
+4) clear ; add-ssws ;;
 5) clear ; menu-vlgrpc ;;
 0) clear ; menu ;;
 x) exit ;;
